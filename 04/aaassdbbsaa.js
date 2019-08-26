@@ -8,6 +8,8 @@ function compressString(str) {
     let repeatNum = 1; // Количество одинаковых символов подряд
     let result = '';
 
+    if (str.length < 1) return '';
+
     for (let i = 1; i < str.length; i++) {
         if (str[i] === str[i - 1]){
             repeatNum++;
