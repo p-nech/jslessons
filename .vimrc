@@ -11,6 +11,7 @@
     autocmd FileType json syntax match Comment +\/\/.\+$+
     colorscheme slate
     autocmd vimenter * NERDTree
+    map <C-n> :NERDTreeToggle<CR>
 
     set langmap=!\\"№\\;%?*ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;!@#$%&*`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 
